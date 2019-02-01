@@ -8,7 +8,7 @@ options = ["r", "p", "s"]
 # Computer Selection
 computer_choice = random.choice(options)
 
-# User Selection
+# User Selection prompt
 user_choice = input("Make your Choice: (r)ock, (p)aper, (s)cissors? ")
 
 # Run Conditionals
