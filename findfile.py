@@ -8,6 +8,6 @@ import csv
 #same as path = '../Resources/accounting.csv
 csvpath = os.path.join('..','Resources','accounting.csv')
 print(csvpath)
-     with open(csvpath, 'r') as fileHandle:
-          lines=fileHandle.read()
-          print(lines)
+	with open(csvpath, 'r') as fileHandle:
+		lines=fileHandle.read()
+		print(lines)
