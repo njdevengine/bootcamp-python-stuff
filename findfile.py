@@ -11,3 +11,7 @@ print(csvpath)
 	with open(csvpath, 'r') as fileHandle:
 		lines=fileHandle.read()
 		print(lines)
+		
+with open(csvpath, newline='') as casfileH:
+	csvReader =csv.reader(casfileH, delimiter=',')
+	print(csvReader)
