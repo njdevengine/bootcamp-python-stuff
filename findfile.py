@@ -15,3 +15,6 @@ print(csvpath)
 with open(csvpath, newline='') as casfileH:
 	csvReader =csv.reader(casfileH, delimiter=',')
 	print(csvReader)
+	
+#read the header
+
